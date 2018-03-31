@@ -1,0 +1,22 @@
+Prerequests:
+The program runs on Linux using Python3.5.
+
+
+The input file is passed as a parameter to the main.sh script, and exported to the
+environment variable via 'export' command.
+
+
+Steps:
+1. Download the Nades_Wave.tar.gz file to a folder.
+2. Untar the file using command: 
+tar xvfz Nades_Wave.tar.gz
+3. Change the file permissions inside the folder (e.g. chmod 755 *).
+4. Call ./main.sh to start the program.
+    e.g. ./main.sh sample.csv
+
+
+Outputs:
+The program will create a file called "past_reports.txt" - which prevents from
+running the report again.
+
+Firefox was used to open the report automatically after execution is complete.
